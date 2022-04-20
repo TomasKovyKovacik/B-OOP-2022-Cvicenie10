@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 public class HelloController {
 
     @Autowired
-    private HelloService service;
+    private IGreetingsService service;
 
     private int counter = 0;
 
